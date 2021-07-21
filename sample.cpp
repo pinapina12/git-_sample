@@ -15,7 +15,11 @@ int main(){
   }else if (op == "*"){
     cout << A * B << endl;
   }else if (op == "/"){
-    cout << double(A / B) << endl;
+    if (B == 0) {
+      cout <<"Calculation cannot be defined"<<endl;
+    }else{
+      cout << double(A / B) << endl;
+    }
   }
 
   return 0;
