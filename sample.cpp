@@ -16,7 +16,7 @@ int main(){
     cout << A * B << endl;
   }else if (op == "/"){
     if (B == 0) {
-      cout <<"Calculation cannot be defined"<<endl;
+      //cout <<"Calculation cannot be defined"<<endl;
     }else{
       cout << double(A / B) << endl;
     }
